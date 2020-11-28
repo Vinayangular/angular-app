@@ -40,26 +40,11 @@ export class AppComponent{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
 };
+
+
+
+
+
+ 
