@@ -13,12 +13,13 @@ export class AppComponent{
   appType : string ="";
 
   constructor(private appService:AppService) {
-
+    //I am constructor
   };
 
 
   searchByCaseNumber() {
     console.log("Search By Button Called");
+    // test function.
 
   };
 
