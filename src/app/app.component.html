@@ -2,6 +2,8 @@
   This is my Angular App 
 </p> -->
 
+<app-header></app-header>
+
 <p>This is {{appType}}</p>  
 
 <button type="submit" (click)="changeToAngular()">Angular</button>
@@ -12,6 +14,26 @@
 <!-- <button type="submit">Search</button> -->
 <button class = "secondary-btn" type="submit" (click)="searchByCaseNumber()">Search Case Number</button>
 <button type="submit" (click)="getAllEmployees()">Submit</button>
+<button type="submit" (click)="getCarDetails()">Car Details</button>
+<!-- {{employeeResponse | json}} -->
+
+<table *ngIf="showTable">
+  <tr>
+    <th>Id</th>
+    <th>Name</th>
+    <th>age</th>
+    <th>Salary</th>
+  </tr>
+
+  <tr *ngFor="let car of carDetails.data">
+    <td>{{car.id}}</td>
+    <td>{{car.employee_name}}</td>
+    <td>{{car.employee_age}}</td>
+    <td>{{car.employee_salary}}</td>
+  </tr>
+</table>
+
+
 
 
 
