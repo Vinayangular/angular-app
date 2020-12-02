@@ -13,7 +13,7 @@ import { StudentComponent } from './student/student.component';
 const routes: Routes = [
   {path : "", redirectTo : "home", pathMatch : "full"},
   {path :"home", component :HomeComponent},
-  {path : "employee", component : EmployeeComponent},
+  {path : "employee", component : EmployeeComponent}, //lazyloading
   {path : "student", component : StudentComponent, children: [
     {path: "attendance", component : AttendanceComponent},
     {path: "home", component : StudentHomeComponent},
