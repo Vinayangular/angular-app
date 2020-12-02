@@ -1,0 +1,52 @@
+<p>about works!</p>
+
+<p>This is {{appType}}</p>  
+
+<button type="submit" (click)="changeToAngular()">Angular</button>
+<button type="submit" (click)="changeToReact()">React</button>
+
+
+
+<!-- <button type="submit">Search</button> -->
+<button class = "secondary-btn" type="submit" (click)="searchByCaseNumber()">Search Case Number</button>
+<button type="submit" (click)="getAllEmployees()">Submit</button>    
+<button type="submit" (click)="getCarDetails()">Car Details</button>
+<!-- {{employeeResponse | json}} -->
+
+<table *ngIf="showTable">
+  <tr>
+    <th>Id</th>
+    <th>Name</th>
+    <th>age</th>
+    <th>Salary</th>
+  </tr>
+
+  <tr *ngFor="let car of carDetails.data">
+    <td>{{car.id}}</td>
+    <td>{{car.employee_name}}</td>
+    <td>{{car.employee_age}}</td>
+    <td>{{car.employee_salary}}</td>
+  </tr>
+</table>
+
+
+
+ 
+
+
+
+
+
+
+
+<!-- <button type="submit">Search </button>
+<button type="submit">Submit</button>
+<h1> This is My Website</h1>
+<h2> This is My Website</h2>
+<h3> This is My Website</h3>
+<h4> This is My Website</h4>
+<h5> This is My Website</h5>
+<input type="text" placeholder="Enter First Name">
+<input type="number" name="studentId" id="studentId">
+<input type="password" name="studentPassword" id="studentPassword"> -->
+

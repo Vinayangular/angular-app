@@ -12,7 +12,13 @@ Functions()-With/Without parameters
 Classes
 forloop
 if else condition
-
+ngFor 
+ngIf
+Request flow
+Response flow (*subscribe)
+Model Classes (Eg: ResponseObject)
+http calls (Eg: ajax) GET PUT POST DELETE
+Discussed about "module".
 
 
 # Basics: 
@@ -25,3 +31,4 @@ Store
 Routing
 
 
+main.js             | main  | 61.15 kB

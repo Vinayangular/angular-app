@@ -16,9 +16,9 @@ export class AppService {
   getEmployees() {
     console.log("Get Employee called in Service file");
   // Write a code to send request to back end
-  return this.http.get("http://dummy.restapiexample.com/api/v1/employees");   //Here we are sending request to backedm,
-                                                                               //Url we get from the backend developer
+  return this.http.get("http://dummy.restapiexample.com/api/v1/employees");   //Here we are sending request to backend this Url we get from the backend developer
 
+                                                                               
 
   
 
